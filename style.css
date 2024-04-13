@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    padding: 2.3rem;
+    background-color: #89CFF0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    margin-right: 2rem;
+    font-size: 25px;
+    
+    
+}
+
+nav ul li a{
+    color: white;
+}
+
+#nav li a :hover{
+    color: cornflowerblue;
+    transition: 0.8s;
+}
+
+button{
+    padding: 0.5rem;
+    width: 12rem;
+    border-radius: 2px;
+    background-color: #89CFF0;
+    border-color: black;
+}
+
+button a{
+    color: white;
+}
+#secao1{
+    
+}
+
+#secao1 h1{
+    font-size: 50px;
+}
+
+
