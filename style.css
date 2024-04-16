@@ -5,29 +5,35 @@
     text-decoration: none;
 }
 header{
-    padding: 2.3rem;
-    background-color: #89CFF0;
+    color: black;
+    padding: 0.4rem;
+    background-color: white;
+    background-image: url(imgs/Sem\ Título-2.png);
+    
+    
+
 }
 
 nav ul{
     display: flex;
     justify-content: center;
+    color: black;
 
 }
 
 nav ul li{
-    margin-right: 2rem;
-    font-size: 25px;
-    
+    margin-right: 5rem;
+    font-size: 25px;  
+    color: black;
     
 }
 
 nav ul li a{
-    color: white;
+    color: black;
 }
 
-#nav li a :hover{
-    color: cornflowerblue;
+nav ul li a:hover{
+    color: black;
     transition: 0.8s;
 }
 
@@ -42,12 +48,24 @@ button{
 button a{
     color: white;
 }
-#secao1{
+body{
+    
     
 }
 
 #secao1 h1{
     font-size: 50px;
+
+    display: flex;
 }
 
+
+
+#secao1{
+    background-image: url(imgs/Sem\ Título-1.png);
+    background-repeat: no-repeat;
+    padding: 20rem;
+    background-size:cover ;
+    
+}
 

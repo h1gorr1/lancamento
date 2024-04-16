@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;}
+
+    header{
+        padding: 1.7rem;
+       background-color: #2f4858;
+    }    
+
+    nav ul{
+        display: flex;
+        justify-content:center;
+    }
+
+    nav ul li{
+        margin-right: 2rem;
+        font-size: 20px;  
+        }
+
+        nav ul li a{
+            color: black;
+        }
+
+        header nav ul li a:hover{
+            color: white;
+            transition: 0.10s;
+        }
+
+        button{
+            padding: 0.5rem;
+            width: 12rem;
+            border-radius: 2px;
+            background-color: #89CFF0;
+            border-color: black;
+        }
+
+        button a{
+            color: white;}
+
+            #secao1{
+                background-image: url(imgs/Sem\ Título-1.png);
+                background-repeat: no-repeat;
+                background-size:auto;
+                padding: 25rem;
+            }
+
+            #secao1 h1{
+                font-size: 50px;
+                font-family: fantasy;
+            }
+
+            #secao p{
+                font-size: 15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
