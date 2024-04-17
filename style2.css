@@ -6,7 +6,7 @@
 
     header{
         padding: 1.5rem;
-       background-color: #2f4858;
+       background-color: #2196f3;
     }    
 
     header ul{
@@ -33,8 +33,10 @@
             padding: 0.5rem;
             width: 12rem;
             border-radius: 2px;
-            background-color: #2f4858;
+            background-color: #2196f3;
             border-color: black;
+            color: white;
+            cursor: pointer;
         }
 
         button a{
@@ -78,8 +80,8 @@
 
 
             #secao2{
-                padding: 25rem;
-                background-image: url(imgs/imagem2.png);
+                padding: 20rem;
+                background-image: url(imagem2.png);
                 background-repeat: no-repeat;
                 background-size: 110% cover;
                 background-position: right;
@@ -95,5 +97,29 @@
 
             footer{
                 padding: 1.5rem;
-                background-color: blanchedalmond;
+                background-color: #001233;
+                color: white;
+                
             }
+
+            footer ul{
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+
+            footer ul li{
+                margin-right: 1.7rem;
+            font-size: 25px;
+            
+            }
+
+            footer ul li a{
+                color: white;
+            }
+
+            footer li a:hover{
+                color: #90e0ef;
+                transition: 0.8s;
+            }
+
