@@ -6,7 +6,7 @@
 }
 
 header {
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #2196f3;
 }
 
@@ -49,7 +49,7 @@ button a {
     background-repeat: no-repeat;
     padding: 15rem;
     background-size: cover;
-    background-position: top left;
+    
     
 }
 
@@ -93,7 +93,7 @@ button a {
     background-image: url(imgs/imagem2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left;
+    
     
 }
 
@@ -105,7 +105,7 @@ button a {
 } */
 
 footer {
-    padding: 1.5rem;
+    padding: 1.4rem;
     background-color: #001233;
     color: white;
 
@@ -131,3 +131,28 @@ footer li a:hover {
     color: #90e0ef;
     transition: 0.8s;
 }
+
+#secao3{
+    background-image: url(imgs/secao3.png);
+    background-size: cover;
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-image: fixed;
+    background-attachment: fixed;
+    
+
+}
+
+.sla p{
+    color: white;
+    font-size: 1.5rem;
+    font-family:fantasy;
+
+}
+
+header i{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
