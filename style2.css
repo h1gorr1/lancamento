@@ -134,7 +134,7 @@ footer li a:hover {
 
 #secao3{
     background-image: url(imgs/secao3.png);
-    background-size: cover;
+    background-size: cover 90%;
     padding: 20rem;
     background-repeat: no-repeat;
     background-image: fixed;
