@@ -1,125 +1,133 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
-    header{
-        padding: 1.5rem;
-       background-color: #2196f3;
-    }    
+header {
+    padding: 1.5rem;
+    background-color: #2196f3;
+}
 
-    header ul{
-        display: flex;
-        justify-content: center;
-    }
+header ul {
+    display: flex;
+    justify-content: center;
+}
 
-   header ul li{
-        margin-right: 1.5rem;
-        font-size: 20px;  
-        
-        }
+header ul li {
+    margin-right: 1.5rem;
+    font-size: 20px;
 
-        header ul li a{
-            color: black;
-        }
+}
 
-        header nav ul li a:hover{
-            color: white;
-            transition: 0.10s;
-        }
+header ul li a {
+    color: black;
+}
 
-        button{
-            padding: 0.5rem;
-            width: 12rem;
-            border-radius: 2px;
-            background-color: #2196f3;
-            border-color: black;
-            color: white;
-            cursor: pointer;
-        }
+header nav ul li a:hover {
+    color: white;
+    transition: 0.10s;
+}
 
-        button a{
-            color: white;}
+button {
+    padding: 0.5rem;
+    width: 12rem;
+    border-radius: 2px;
+    background-color: #2196f3;
+    border-color: black;
+    color: white;
+    cursor: pointer;
+}
 
-            #secao1{
-                background-image: url(imgs/Sem\ Título-1.png);
-                background-repeat: no-repeat;
-                background-size:auto;
-                padding: 15rem;
-                background-size: cover;
-                background-position:right;
-                background-position: top;
-                
-            }
+button a {
+    color: white;
+}
 
-            #secao1 h1{
-                font-size: 50px;
-                font-family: fantasy;
-            }
+#secao1 {
+    background-image: url(imgs/Sem\ Título-1.png);
+    background-repeat: no-repeat;
+    padding: 15rem;
+    background-size: cover;
+    background-position: top left;
+    
+}
 
-            #secao1 p{
-                font-size: 15px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
+#secao1 h1 {
+    font-size: 50px;
+    font-family: fantasy;
+}
 
-            #secao1 div{
-                margin-top:0rem;
-                margin-left:-10rem;
-            }
-            
-            .section-text{
-                background-color: black; /*Cor de fundo da minha sessão*/
-                color: white; /*Mudando a cor da letra*/
-                font-size: 25px; /*Tamanho da fonte*/
-                padding: 10rem; /*Tamanho da minha sessão*/
-                display: flex; /*Separamos os textos lado a lado*/
-                text-align: center; /*Alinhamos o texto ao centro*/
-                
-            }
+#secao1 p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+}
+
+/* #secao1 div {
+    margin-top: 0rem;
+    margin-left: rem;
+} */
 
 
-            #secao2{
-                padding: 20rem;
-                background-image: url(imagem2.png);
-                background-repeat: no-repeat;
-                background-size: 110% cover;
-                background-position: right;
-                background-position: top;
-            }
 
-            #secao2 div{
-                margin-top:-5rem;
-                margin-left:-16rem;
-                
+.section-text {
+    background-color: black;
+    /*Cor de fundo da minha sessão*/
+    color: white;
+    /*Mudando a cor da letra*/
+    font-size: 25px;
+    /*Tamanho da fonte*/
+    padding: 10rem;
+    /*Tamanho da minha sessão*/
+    display: flex;
+    /*Separamos os textos lado a lado*/
+    text-align: center;
+    /*Alinhamos o texto ao centro*/
 
-            }
+}
 
-            footer{
-                padding: 1.5rem;
-                background-color: #001233;
-                color: white;
-                
-            }
 
-            footer ul{
-                display: flex;
-                justify-content: center;
-                color: white;
-            }
+#secao2 {
+    padding: 15rem;
+    background-image: url(imgs/imagem2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    
+}
 
-            footer ul li{
-                margin-right: 1.7rem;
-            font-size: 25px;
-            
-            }
+/* #secao2 div {
+    margin-top: -5rem;
+    margin-left: -16rem;
 
-            footer ul li a{
-                color: white;
-            }
 
-            footer li a:hover{
-                color: #90e0ef;
-                transition: 0.8s;
-            }
+} */
 
+footer {
+    padding: 1.5rem;
+    background-color: #001233;
+    color: white;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer ul li {
+    margin-right: 1.7rem;
+    font-size: 25px;
+
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer li a:hover {
+    color: #90e0ef;
+    transition: 0.8s;
+}
